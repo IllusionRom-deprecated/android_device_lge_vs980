@@ -5,7 +5,7 @@ $(call inherit-product, vendor/illusion/config/cdma.mk)
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-$(call inherit-product, vendor/illusion/config/common.mk)
+$(call inherit-product, vendor/illusion/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/vs980/vs980.mk)
